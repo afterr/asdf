@@ -1,0 +1,59 @@
+﻿table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+#header{
+    background-color:black;
+        text-align:center;
+        color:orange;
+        padding:10px;
+        height:75px;
+}
+#meniu1{
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:5%;
+    display:inline-block;
+    padding:5px; 
+    margin-top:10px;
+    vertical-align:top;   
+
+}
+#table1{
+    height:300px;
+    width:90%;
+    text-align:center;
+    /*float:left;*/
+    padding:20px;
+    /*margin-left:215px;*/
+    margin-top:10px;  
+    display:inline-block;  
+    vertical-align:top;  
+     
+
+}
+#table1 table{
+    display:inline-block;
+}
+td,tr{
+    border:2px solid black;
+    text-align:center;
+    width:200px;
+
+}
+#name01,#age01,#nationality01{
+   font-size:25px;
+
+}
+#table1,#meniu1{
+    display:inline-block;
+}
+
+

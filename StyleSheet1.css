@@ -1,0 +1,43 @@
+﻿#header{
+    background-color:black;
+        text-align:center;
+        color:orange;
+        padding:10px;
+        height:75px;
+}
+#meniu1{
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:5%;
+    padding:5px; 
+    margin-top:10px;
+    vertical-align:top;
+}
+#lista,#meniu1{
+    display:inline-block;
+}
+#lista{
+    line-height:30px;
+    height:300px;
+    width:90%;
+    padding:5px;
+    margin-top:10px;
+    vertical-align:top;
+    text-align:center;
+    display:inline-block;
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+td,tr{
+    text-align:center;
+    width:300px;
+
+}
+table{
+    display:inline-block;
+}
